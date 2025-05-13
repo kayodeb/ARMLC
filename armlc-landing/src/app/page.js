@@ -11,6 +11,7 @@ const navigation = [
   { name: "Bénéficies de l'asdhésion", href: "#bénéfices" },
   { name: "Rester informer", href: "#info" },
 ];
+
 const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -30,7 +31,7 @@ export default function Home() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <img alt="" src="/logo.svg" className="h-8 w-auto" />
+              <img alt="logo ARMLC" src="/logo.svg" className="h-8 w-auto" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -64,7 +65,7 @@ export default function Home() {
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <img alt="" src="/logo.svg" className="h-8 w-auto" />
+                <img alt="logo ARMLC" src="/logo.svg" className="h-8 w-auto" />
               </a>
               <button
                 type="button"
@@ -111,10 +112,10 @@ export default function Home() {
           </div>
 
           <div>
-            <img alt="" src="/muslim.png" className="-my-10" />
+            <img alt="image de deux musulman" src="/muslim.png" className="-my-10" />
           </div>
           <div className="absolute rounded-full -right-[700px] overflow-x-auto    bg-yellow-50 w-10 h-5 p-[800px] max-sm:-right-[900px] max-sm:-top-[1350px]  -top-[1100px] -z-20">
-            {" "}
+            
           </div>
         </div>
       </section>
@@ -123,15 +124,15 @@ export default function Home() {
         <div className="flex  flex-col md:mt-20 justify-center pb-6 items-center">
           <h1 className="text-amber-300  text-3xl sm:text-5xl"> ARMLC </h1>
           <h6 className="text-black font-semibold text-center  text-2xl sm:text-xl mt-2">
-            {" "}
+            
             Association du Risk Management des Lieux de Culte
           </h6>
         </div>
         <div className="flex  flex-row mt-20 justify-center gap-x-12 items-center sm:gap-x-40">
           <div>
             <h4 className="text-black   font-semibold text-xl text-center ">
-              {" "}
-              Solidarité{" "}
+              
+              Solidarité
             </h4>
             <p className="text-black  mt-2   w-46 sm:w-full sm:max-w-60 font-semibold sm:font-normal text-center sm:text-xl ">
               Se protéger, c'est aussi protéger les autres
@@ -139,8 +140,8 @@ export default function Home() {
           </div>
           <div>
             <h4 className="text-black   font-semibold text-xl text-center">
-              {" "}
-              Indépendence{" "}
+              
+              Indépendence
             </h4>
             <p className="text-black  mt-2   w-32 sm:w-full sm:max-w-60 font-semibold sm:font-normal text-center sm:text-xl  ">
               Aucune influence commercial
@@ -149,7 +150,7 @@ export default function Home() {
         </div>
         <div className="p-2">
           <img
-            alt=""
+            alt=" vague de couleur orange"
             src="/vague.svg"
             className=" sm:-mb-40 my-6  m-auto max-md:w-[1400px] max-sm:max-w-[400px]"
           />
@@ -158,8 +159,8 @@ export default function Home() {
         <div className="flex sm:mt-32   w-full  justify-evenly ">
           <div>
             <h4 className="text-black   font-semibold text-xl text-center ">
-              {" "}
-              Prévention{" "}
+              
+              Prévention
             </h4>
             <p className="text-black  mt-2   w-32 sm:w-full sm:max-w-60 font-semibold sm:font-normal text-center  text-xs md:text-xl ">
               Anticiper les risques pour mieux les éviter
@@ -167,8 +168,8 @@ export default function Home() {
           </div>
           <div>
             <h4 className="text-black   font-semibold text-xl text-center ">
-              {" "}
-              Transparence{" "}
+              
+              Transparence
             </h4>
             <p className="text-black  mt-2   w-32 sm:w-full sm:max-w-60 font-semibold sm:font-normal text-center  text-xs md:text-xl">
               Des actions claires pour des objectifs partagés
@@ -176,7 +177,7 @@ export default function Home() {
           </div>
           <div>
             <h4 className="text-black   font-semibold text-xl text-center ">
-              {" "}
+              
               Responsabilité
             </h4>
             <p className="text-black  mt-2 w-32 sm:w-full sm:max-w-60 font-semibold sm:font-normal text-center  text-xs md:text-xl">
@@ -208,19 +209,19 @@ export default function Home() {
         <div className="flex flex-col gap-y-3 justify-start items-center ">
           <div className="text-black font-semibold space-y-4">
             <div className="flex items-center sm:text-xl">
-              <img src="/target.svg" className="w-14 h-14" />
+              <img src="/target.svg" alt="cicle" className="w-14 h-14" />
               <span className="ml-2">Identifier les risques</span>
             </div>
             <div className="flex items-center sm:text-xl">
-              <img src="/target-people.svg" className="w-12 h-12" />
+              <img src="/target-people.svg" alt="cible des personne " className="w-12 h-12" />
               <span className="ml-2">Former les bénévoles</span>
             </div>
             <div className="flex items-center sm:text-xl">
-              <img src="/super-target.svg" className="w-14 h-12" />
+              <img src="/super-target.svg" alt="cible" className="w-14 h-12" />
               <span className="ml-2">Agir en prévention</span>
             </div>
             <div className="flex items-center sm:text-xl">
-              <img src="/ring.svg" className="w-16 h-16" />
+              <img src="/ring.svg" alt="alerte" className="w-16 h-16" />
               <span className="ml-2">Réagir efficacement</span>
             </div>
           </div>
@@ -233,17 +234,17 @@ export default function Home() {
       >
         <div className="  flex  flex-col mt-2 text-black justify-center pb-6  items-center">
           <h1 className="text-black font-bold  text-2xl sm:text-3xl text-center">
-            Les avantages à réjoindre l'ARMLC{" "}
+            Les avantages à réjoindre l'ARMLC
           </h1>
           <h6 className="text-black text-center max-w-[650px] sm:font-semibold mt-2 px-12 sm:px-0 text-lg mb-6 ">
-            {" "}
+            
             Rejoindre l'ARMLC, c'est bénéficier d'une couverture adaptée, de
             conseils pratiques et d'un réseau engagé .
           </h6>
         </div>
         <div className="grid sm:grid-cols-2 sm:grid-rows-2 max-w-[900px] p-4 sm:gap-y-12 m-auto">
           <div className="  text-black flex items-center justify-start">
-            <img src="/target.svg" className="w-18" alt="" />
+            <img src="/protect.svg" className="w-18" alt=" protection-logo" />
 
             <div>
               <div>
@@ -257,7 +258,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" text-black flex items-center  gap-x-2  justify-start">
-            <img src="/target.svg" className="w-18" alt="" />
+            <img src="/web-page.svg" className="w-18" alt="page-web-logo" />
 
             <div>
               <div>
@@ -271,7 +272,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" text-black flex items-center gap-x-2 justify-start">
-            <img src="/target.svg" className="w-18" alt="" />
+            <img src="/salutations.svg" className="w-18" alt="alutations" />
 
             <div>
               <div>
@@ -285,7 +286,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" text-black flex items-center  gap-x-2  justify-start">
-            <img src="/target.svg" className="w-18" alt="" />
+            <img src="/call.svg" className="w-18" alt="sms appel" />
 
             <div>
               <div>
@@ -303,7 +304,7 @@ export default function Home() {
       </section>
       <section id="info" className="flex flex-col p-2  md:p-8">
         <div className="text-black mt-16 py-6 font-semibold items-center rounded-t-lg bg-[#F6B417] text-xl sm:text-lg   text-center">
-          {" "}
+          
           Restez informé même sans adhérer
         </div>
         <div className="grid md:grid-cols-2  grid-rows-1 grid-cols-1    bg-[#FEFFEF]  ">
@@ -344,7 +345,7 @@ export default function Home() {
       </section>
       <footer className="flex flex-col p-6   sm:p-20 mb-0 justify-center  bg-[#FEFCD3] ">
         <div className="flex sm:flex-row  flex-col border-b-2 border-gray-500 w-full pb-12 justify-around">
-          <img alt="" src="/logo.png" className="h-10 w-32" />
+          <img alt="logo ARMLC" src="/logo.png" className="h-10 w-32" />
           <div className=" flex-1 flex justify-evenly  gap-4 max-md:grid grid-cols-2">
             <div className=" flex flex-col gap-y-2">
               <h1 className=" font-bold  text-lg">Ressources</h1>
